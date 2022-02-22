@@ -94,14 +94,20 @@
 
 
 .thirdSection{
-    margin-top: 5%;
+    padding-top: 5%;
     height: 40vh;
-    margin-bottom: 5%;
-}
+    padding-bottom: 8%;
 
+    background: rgb(210,210,210);
+    background: -moz-linear-gradient(180deg, rgba(210,210,210,1) 0%, rgba(255,255,255,1) 39%);
+    background: -webkit-linear-gradient(180deg, rgba(210,210,210,1) 0%, rgba(255,255,255,1) 39%);
+    background: linear-gradient(180deg, rgba(210,210,210,1) 0%, rgba(255,255,255,1) 39%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d2d2",endColorstr="#ffffff",GradientType=1);
+}
 .proj {
-    font-size: 32pt;
+    font-size: 48pt;
     margin-bottom: 3%;
+    color: #4949498a;
 }
 
 .projImage {
@@ -110,18 +116,20 @@
     border-radius: 100px;
 }
 
+
 .eachProj {
     text-align: center;
     width: 20%;
     max-width: 20%;
     padding: 20px;
-    border: solid 1px;
-    border-radius: 20px;
+    border: 1px solid #549bcb;
+    border-radius: 0px 40px 0px 40px;
     margin: 10px;
 }
 
 .eachProj a{
     text-decoration: none;
+    color: rgb(33, 33, 33);
 }
 
 
@@ -157,5 +165,17 @@
     .secSection{
         font-size: 8pt;
         height: 85vh;
+    }
+
+    .projectsContainer{
+        flex-direction:column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .eachProj{
+        width: 80%;
+        max-width: 90%;
     }
 }
