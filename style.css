@@ -6,9 +6,10 @@
 
 .displayF {
     display: flex;
+}
+.jstCenter{
     justify-content: center;
 }
-
 .directionV{
     flex-direction: column;
 }
@@ -55,10 +56,6 @@
 
 }
 
-.divpadd {
-    padding: 30px;
-}
-
 /* SECOND SECTION */
 
 .secSection {
@@ -93,11 +90,39 @@
 }
 
 
+/* THIRD SECTION */
 
 
+.thirdSection{
+    margin-top: 5%;
+    height: 40vh;
+    margin-bottom: 5%;
+}
 
+.proj {
+    font-size: 32pt;
+    margin-bottom: 3%;
+}
 
+.projImage {
+    width: 180px;
+    margin: 20px;
+    border-radius: 100px;
+}
 
+.eachProj {
+    text-align: center;
+    width: 20%;
+    max-width: 20%;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.eachProj a{
+    text-decoration: none;
+}
 
 
 
@@ -127,5 +152,10 @@
         text-align: center;
         font-size: 38pt;
         top: 113vh;
+    }
+
+    .secSection{
+        font-size: 8pt;
+        height: 85vh;
     }
 }
